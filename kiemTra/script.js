@@ -15,9 +15,10 @@ if (n > 0) {
 }
 
 if (n > 0) {
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= n; i++) {
     console.log(`${i}`);
   }
 } else {
   console.log(`Giá trị ${n} không hợp lệ để tạo dãy số`);
 }
+
